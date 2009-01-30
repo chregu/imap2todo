@@ -1,0 +1,10 @@
+<?php
+
+$folders = array(  "",
+                   "Mail/somefolder"
+                 );
+                   
+$cfg['url'] = '{mail.example.com:993/ssl/imap4/novalidate-cert/readonly}';              
+
+$cfg['user'] = "user";
+$cfg['pass'] = "pass";
